@@ -1,32 +1,52 @@
-
 <section class="overflow-hidden bg-olsc-teal text-white">
+
     <div class="marquee flex whitespace-nowrap">
-        <div class="marquee-content flex items-center gap-12 py-4">
+
+        <div class="marquee-content flex items-center
+                    gap-8 md:gap-12
+                    py-3 md:py-4">
+
             @for($i = 0; $i < 8; $i++)
-                <div class="flex items-center gap-2 font-display text-xl font-bold underline-offset-4">
-                    Walk On • Walk On • With Hope In Your Heart • And You'll Never Walk Alone • You'll Never Walk Alone • Walk On • Walk On • With Hope In Your Heart • And You'll Never Walk Alone
+
+                <div class="flex items-center gap-2
+                            font-display
+                            text-base md:text-xl
+                            font-bold">
+
+                    Walk On • Walk On • With Hope In Your Heart •
+                    And You'll Never Walk Alone • You'll Never Walk Alone
 
                 </div>
+
             @endfor
+
         </div>
+
     </div>
+
 </section>
+
+
 <footer class="bg-olsc-red text-white">
 
-    <div class="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-4 gap-12">
-
+    <div class="max-w-7xl mx-auto
+                px-4 md:px-6
+                py-12 md:py-16
+                grid
+                sm:grid-cols-2
+                md:grid-cols-4
+                gap-10 md:gap-12">
 
         <div>
 
-            <img src="{{asset('storage/logo.png')}}" class="h-14 mb-6">
+            <img src="{{asset('storage/logo.png')}}"
+                 class="h-12 md:h-14 mb-5 md:mb-6">
 
             <p class="text-sm text-red-100 leading-relaxed">
                 Official Liverpool Supporters Club France depuis 2002.
                 Rejoignez la communauté des supporters français des Reds.
                 YNWA.
             </p>
-
-
 
         </div>
 
@@ -35,11 +55,16 @@
 
         <div>
 
-            <h3 class="font-semibold text-white mb-6 tracking-wide text-base">
+            <h3 class="font-semibold text-white
+                       mb-4 md:mb-6
+                       tracking-wide
+                       text-sm md:text-base">
+
                 Navigation
+
             </h3>
 
-            <ul class="space-y-3 text-sm">
+            <ul class="space-y-2 md:space-y-3 text-sm">
 
                 <li><a href="#" class="hover:text-olsc-yellow transition">Accueil</a></li>
 
@@ -62,11 +87,16 @@
 
         <div>
 
-            <h3 class="font-semibold text-white mb-6 tracking-wide text-base">
+            <h3 class="font-semibold text-white
+                       mb-4 md:mb-6
+                       tracking-wide
+                       text-sm md:text-base">
+
                 OLSC France
+
             </h3>
 
-            <ul class="space-y-3 text-sm">
+            <ul class="space-y-2 md:space-y-3 text-sm">
 
                 <li>
                     <a href="#" class="hover:text-olsc-yellow transition">
@@ -99,10 +129,10 @@
 
         <!-- INFOS -->
 
-        <div>
+        <div class="flex justify-start md:justify-center items-start">
 
-
-            <img src="{{asset('storage/ynwa.png')}}" class="">
+            <img src="{{asset('storage/ynwa.png')}}"
+                 class="max-w-[140px] md:max-w-[180px] w-full">
 
         </div>
 
@@ -113,15 +143,22 @@
 
     <div class="bg-olsc-red-dark">
 
-        <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center text-sm">
+        <div class="max-w-7xl mx-auto
+                    px-4 md:px-6
+                    py-5 md:py-6
+                    flex flex-col md:flex-row
+                    justify-between
+                    items-center
+                    gap-4
+                    text-sm">
 
-            <div class="text-red-200">
+            <div class="text-red-200 text-center md:text-left">
 
                 © {{date('Y')}} OLSC France - Liverpool France | You'll Never Walk Alone
 
             </div>
 
-            <div class="flex gap-8 mt-4 md:mt-0">
+            <div class="flex gap-6 md:gap-8">
 
                 <a href="#" class="hover:text-olsc-yellow transition text-red-200">
                     Mentions légales

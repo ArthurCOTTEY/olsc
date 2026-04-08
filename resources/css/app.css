@@ -19,3 +19,25 @@
     --color-olsc-red-dark: #a0001c;
     --color-olsc-teal-dark: #007a72;
 }
+
+@layer utilities {
+    .marquee {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .marquee-content {
+        display: flex;
+        animation: marquee 120s linear infinite;
+    }
+
+    @keyframes marquee {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-50%);
+        }
+    }
+
+}

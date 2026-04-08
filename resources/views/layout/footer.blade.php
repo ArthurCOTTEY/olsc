@@ -1,8 +1,20 @@
-<footer class="bg-olsc-red text-white mt-20">
+
+<section class="overflow-hidden bg-olsc-teal text-white">
+    <div class="marquee flex whitespace-nowrap">
+        <div class="marquee-content flex items-center gap-12 py-4">
+            @for($i = 0; $i < 8; $i++)
+                <div class="flex items-center gap-2 font-display text-xl font-bold underline-offset-4">
+                    Walk On • Walk On • With Hope In Your Heart • And You'll Never Walk Alone • You'll Never Walk Alone • Walk On • Walk On • With Hope In Your Heart • And You'll Never Walk Alone
+
+                </div>
+            @endfor
+        </div>
+    </div>
+</section>
+<footer class="bg-olsc-red text-white">
 
     <div class="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-4 gap-12">
 
-        <!-- LOGO -->
 
         <div>
 
@@ -13,6 +25,8 @@
                 Rejoignez la communauté des supporters français des Reds.
                 YNWA.
             </p>
+
+
 
         </div>
 
@@ -87,23 +101,8 @@
 
         <div>
 
-            <h3 class="font-semibold text-white mb-6 tracking-wide text-base">
-                Informations
-            </h3>
 
-            <ul class="space-y-3 text-sm text-red-100">
-
-                <li>Official Liverpool Supporters Club France</li>
-
-                <li>Fondé en 2002</li>
-
-                <li>
-                    <a href="#" class="hover:text-olsc-yellow transition">
-                        Contact
-                    </a>
-                </li>
-
-            </ul>
+            <img src="{{asset('storage/ynwa.png')}}" class="">
 
         </div>
 

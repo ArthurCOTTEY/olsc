@@ -20,10 +20,52 @@
         @endif
     </head>
     <body>
+
+        <div class="bg-olsc-teal text-white text-sm">
+            <div class="max-w-7xl mx-auto px-6 py-2 flex items-center justify-center gap-3 text-center">
+            <span class="font-semibold uppercase tracking-wide">
+                Réabonnements ouverts
+            </span>
+
+                <span class="hidden md:inline text-white/70">|</span>
+
+                <span class="text-white/90">
+                Les souscriptions pour la saison 2025-2026 sont actuellement ouvertes.
+            </span>
+
+                <a href="#"
+                   class="font-semibold underline underline-offset-4 hover:text-olsc-yellow transition">
+                    En savoir plus
+                </a>
+            </div>
+        </div>
+
         @include('layout.header')
         <main>
             @yield('body')
         </main>
         @include('layout.footer')
+
+        <button id="backToTop"
+                class="fixed bottom-8 right-8 bg-olsc-red text-white p-4
+               shadow-lg opacity-0 translate-y-4
+               hover:bg-olsc-red-dark hover:-translate-y-1 hover:cursor-pointer
+               transition-all duration-300 z-50">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 class="w-5 h-5"
+                 fill="none"
+                 viewBox="0 0 24 24"
+                 stroke="currentColor">
+
+                <path stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M5 15l7-7 7 7"/>
+
+            </svg>
+
+        </button>
+
     </body>
 </html>

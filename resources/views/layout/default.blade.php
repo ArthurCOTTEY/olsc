@@ -22,24 +22,7 @@
     </head>
     <body>
 
-        <div class="bg-olsc-teal text-white text-sm">
-            <div class="max-w-7xl mx-auto px-6 py-2 flex items-center justify-center gap-3 text-center">
-            <span class="font-semibold uppercase tracking-wide">
-                Réabonnements ouverts
-            </span>
 
-                <span class="hidden md:inline text-white/70">|</span>
-
-                <span class="text-white/90">
-                Les souscriptions pour la saison 2025-2026 sont actuellement ouvertes.
-            </span>
-
-                <a href="#"
-                   class="font-semibold underline underline-offset-4 hover:text-olsc-yellow transition">
-                    En savoir plus
-                </a>
-            </div>
-        </div>
 
         @include('layout.header')
         <main>

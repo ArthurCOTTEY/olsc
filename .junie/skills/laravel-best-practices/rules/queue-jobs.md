@@ -135,7 +135,7 @@ Use Laravel Horizon when you need monitoring, auto-scaling, failure tracking, or
     'production' => [
         'supervisor-1' => [
             'connection' => 'redis',
-            'queue' => ['high', 'default', 'low'],
+            'queue' => ['high', 'layout', 'low'],
             'balance' => 'auto',
             'minProcesses' => 1,
             'maxProcesses' => 10,

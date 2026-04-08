@@ -7,5 +7,15 @@
 
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* OLSC COLORS */
+    --color-olsc-red: #D00027;
+    --color-olsc-teal: #00A398;
+    --color-olsc-yellow: #FDF667;
+    --color-olsc-white: #FFFFFF;
+
+    /* Optionnel (hover pro) */
+    --color-olsc-red-dark: #a0001c;
+    --color-olsc-teal-dark: #007a72;
 }

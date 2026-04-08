@@ -66,10 +66,10 @@ Key `Str` methods to prefer: `Str::slug()`, `Str::limit()`, `Str::contains()`, `
 Arrays — use `Arr` over raw PHP:
 ```php
 // Incorrect
-$name = isset($array['user']['name']) ? $array['user']['name'] : 'default';
+$name = isset($array['user']['name']) ? $array['user']['name'] : 'layout';
 
 // Correct
-$name = Arr::get($array, 'user.name', 'default');
+$name = Arr::get($array, 'user.name', 'layout');
 ```
 
 Key `Arr` methods: `Arr::get()`, `Arr::has()`, `Arr::only()`, `Arr::except()`, `Arr::first()`, `Arr::flatten()`, `Arr::pluck()`, `Arr::where()`, `Arr::wrap()`.

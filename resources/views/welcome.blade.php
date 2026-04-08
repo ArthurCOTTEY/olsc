@@ -327,7 +327,7 @@
                                    group-hover:text-olsc-yellow
                                    transition">
 
-                                Ouverture des souscriptions 2025
+                                Ouverture des souscriptions 2026
 
                             </h3>
 

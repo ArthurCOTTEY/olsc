@@ -8,7 +8,7 @@
 
         <div class="absolute inset-0">
 
-            <img src="{{asset('storage/anfield.jpg')}}"
+            <img src="{{asset('storage/groupe.jpg')}}"
                  class="w-full h-full object-cover">
 
             <div class="absolute inset-0 bg-olsc-red/50"></div>
@@ -128,13 +128,13 @@
 
                     <!-- BACKGROUND -->
 
-                    <img src="{{asset('storage/anfield.jpg')}}"
+                    <img src="{{asset('storage/rassemblement.jpg')}}"
                          class="absolute inset-0 w-full h-full object-cover
                             group-hover:scale-105 transition duration-700">
 
                     <!-- OVERLAY -->
 
-                    <div class="absolute inset-0 bg-olsc-red/90
+                    <div class="absolute inset-0 bg-olsc-red/50
                             group-hover:bg-olsc-red/85 transition duration-500"></div>
 
                     <!-- CONTENT -->
@@ -357,10 +357,10 @@
 
         <!-- BACKGROUND -->
 
-        <img src="{{asset('storage/anfield.jpg')}}"
+        <img src="{{asset('storage/pont.jpg')}}"
              class="absolute inset-0 w-full h-full object-cover">
 
-        <div class="absolute inset-0 bg-olsc-red/90"></div>
+        <div class="absolute inset-0 bg-olsc-red/50"></div>
 
 
         <!-- CONTENT -->
@@ -668,7 +668,7 @@
 
         <!-- OVERLAY -->
 
-        <div class="absolute inset-0 bg-black/75"></div>
+        <div class="absolute inset-0 bg-black/50"></div>
 
         <!-- CONTENT -->
 
@@ -1153,7 +1153,7 @@
                         h-64 sm:h-80 md:h-96
                         overflow-hidden">
 
-                    <img src="{{asset('storage/anfield.jpg')}}"
+                    <img src="{{asset('storage/donation.jpg')}}"
                          class="absolute inset-0 w-full h-full object-cover hover:scale-105 transition duration-700">
 
                 </div>
@@ -1164,7 +1164,7 @@
                         h-64 sm:h-80 md:h-96
                         overflow-hidden">
 
-                    <img src="{{asset('storage/anfield.jpg')}}"
+                    <img src="{{asset('storage/istanbul.jpg')}}"
                          class="absolute inset-0 w-full h-full object-cover hover:scale-105 transition duration-700">
 
                 </div>
@@ -1175,7 +1175,7 @@
                         h-52 md:h-64
                         overflow-hidden">
 
-                    <img src="{{asset('storage/anfield.jpg')}}"
+                    <img src="{{asset('storage/lush.jpg')}}"
                          class="absolute inset-0 w-full h-full object-cover hover:scale-105 transition duration-700">
 
                 </div>
@@ -1184,7 +1184,7 @@
                         h-52 md:h-64
                         overflow-hidden">
 
-                    <img src="{{asset('storage/anfield.jpg')}}"
+                    <img src="{{asset('storage/kop.jpg')}}"
                          class="absolute inset-0 w-full h-full object-cover hover:scale-105 transition duration-700">
 
                 </div>
@@ -1193,7 +1193,7 @@
                         h-52 md:h-64
                         overflow-hidden">
 
-                    <img src="{{asset('storage/anfield.jpg')}}"
+                    <img src="{{asset('storage/shankly.jpg')}}"
                          class="absolute inset-0 w-full h-full object-cover hover:scale-105 transition duration-700">
 
                 </div>
